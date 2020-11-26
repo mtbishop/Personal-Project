@@ -1,0 +1,118 @@
+h1 {
+    color:rgb(0, 0, 0);
+    font-size: 300%;
+    text-align: center;
+    float: right;
+    height: 60px;
+    width: 700px;
+    background-color: white;
+    font-family: fantasy;
+}
+#webTitle {
+    color:blue;
+    font-size: 30px;
+    
+}
+section {
+    font-size: 40px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+
+}
+
+h3 {
+    color: black;
+    text-align: center;
+
+}
+
+h4 {
+    color: black;
+    text-align: center;
+
+}
+
+h5 {
+    color: black;
+    text-align: center;
+
+}
+
+h6 {
+    color: black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+html {
+    background-image: url(https://sadanduseless.b-cdn.net/wp-content/uploads/2020/10/hilarious-pumpkins4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#bodyBordered {
+    background: grey;
+    font-size: 67%;
+    width: 400px;
+    float: left;
+    border-style: groove;
+    border: grey;
+    border: solid; 
+    border-radius: 20%;
+    opacity: 96%;
+    margin: 2.8rem;
+    padding: 1.5rem;
+    word-wrap: normal;
+
+
+
+}
+#head {
+    color: black;
+    border: grey;
+    border-style: solid;
+    border: solid;
+    background: white;
+    float: left;
+    font-size: large;
+    margin: 3px;
+    padding: 3px;
+
+}
+#head2 {
+    color: black;
+    border: grey;
+    border-style: solid;
+    border: solid;
+    background: white;
+    float: left;
+    font-size: large;
+    margin: 3px;
+    padding: 3px;
+
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Goldman', cursive;
+    
+}
+
+
+
+button {
+    background-color: teal;
+    font-family: 'Xanh Mono', monospace;
+}
