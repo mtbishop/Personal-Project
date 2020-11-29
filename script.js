@@ -1,4 +1,4 @@
-function myFunction() {
+function greetingAlert() {
   var person = prompt('Please enter your name', 'Matthew');
   if (person != null) {
     document.getElementById('demo').innerHTML =
@@ -7,4 +7,4 @@ function myFunction() {
       '! How are you today? Are you ready to look at some juicy bois?';
   }
 }
-myFunction();
+greetingAlert();

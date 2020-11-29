@@ -66,15 +66,15 @@ h6 {
 
 
 html {
-    background-image: url(https://sadanduseless.b-cdn.net/wp-content/uploads/2020/10/hilarious-pumpkins4.jpg);
+    background-image: url(https://images.unsplash.com/photo-1578847344240-9fc44986caba?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODZ8fGZydWl0c3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .pButtW {
-    background-color: rgb(26, 144, 160);
-    margin-top: -50px;
-    margin-bottom: 10px;
+    background-color: rgb(249,253,238);
+    margin-top: 60px;
+    margin-bottom: 50px;
     margin-left: -10px;
     margin-right: 40px;
     font-size: 200%;
@@ -85,7 +85,7 @@ html {
     border-width: 2px;
 }
 .firstButton {
-    background: rgb(208, 208, 208);
+    background: rgb(167, 211, 44);
     border-style: ridge;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -113,7 +113,7 @@ html {
 }
 
 #bodyBordered {
-    background: grey;
+    background: rgb(249,253,238);
     font-size: 67%;
     width: 400px;
     float: left;
@@ -122,7 +122,8 @@ html {
     border: solid; 
     border-radius: 20%;
     opacity: 96%;
-    margin: 3rem;
+    margin-top: 70px;
+    margin-left: -300px;
     padding: 32px;
     word-wrap: normal;
 
@@ -159,7 +160,8 @@ p {
     color: black;
     font-size: 200%;
     font-weight: bold;
-    font-family: 'Goldman', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+
     
 }
 
