@@ -7,7 +7,22 @@ h1 {
     width: 700px;
     background-color: white;
     font-family: fantasy;
+
 }
+.strangeProduce {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    height: 30px;
+    width: 230px;
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+    font-family: 'Blinker', sans-serif;
+}
+.strangeButton {
+    border-style: groove;
+}
+
 #webTitle {
     color:blue;
     font-size: 30px;
@@ -56,8 +71,46 @@ html {
     background-repeat: no-repeat;
 }
 
+.pButtW {
+    background-color: rgb(26, 144, 160);
+    margin-top: -50px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: 40px;
+    font-size: 200%;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 16px;
+    width: 1488px;
+    border-style: solid;
+    border-width: 2px;
+}
+.firstButton {
+    background: rgb(208, 208, 208);
+    border-style: ridge;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container .image {
+    width: 50%;
+  }
+  
+  .container img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+  }
 
 
+#fartLink {
+    background: white; 
+        opacity: 50%;
+    font-size: 40px;
+    text-align: center;
+}
 
 #bodyBordered {
     background: grey;
@@ -69,8 +122,8 @@ html {
     border: solid; 
     border-radius: 20%;
     opacity: 96%;
-    margin: 2.8rem;
-    padding: 1.5rem;
+    margin: 3rem;
+    padding: 32px;
     word-wrap: normal;
 
 
@@ -110,9 +163,3 @@ p {
     
 }
 
-
-
-button {
-    background-color: teal;
-    font-family: 'Xanh Mono', monospace;
-}
