@@ -17,9 +17,12 @@ h1 {
   margin: 0px 0px 0px 0px;
   background-color: white;
   font-family: 'Blinker', sans-serif;
+  position: relative;
 }
 .strangeButton {
   border-style: groove;
+  position: relative;
+  top: -6px;
 }
 
 #webTitle {
@@ -83,18 +86,41 @@ html {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
+#imagePear {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  left: 80px;
 }
 
-.container .image {
-  width: 50%;
+#imageSpike {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  right: -122px;
 }
 
-.container img {
-  width: calc(100% - (20px * 2));
-  margin: 20px;
+#imageTurnip {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  left: 80px;
+  top: 25px;
+}
+
+#imagePumpkin {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  right: -122px;
+  top: 25px;
+}
+#imagePumpkin2 {
+  position: relative;
+  height: 400px;
+  width: 700px;
+  bottom: 30px;
+  left: 400px;
 }
 
 #fartLink {
@@ -118,6 +144,9 @@ html {
   margin-left: -300px;
   padding: 32px;
   word-wrap: normal;
+  position: relative;
+  top: 50px;
+  left: 21px;
 }
 #head {
   color: black;
