@@ -69,6 +69,8 @@ html {
 
 .pButtW {
   background-color: rgb(249, 253, 238);
+  position: relative;
+  right: -150px;
   margin-top: 60px;
   margin-bottom: 50px;
   margin-left: -10px;
@@ -86,41 +88,43 @@ html {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.imagesContainer {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px 400px;
+  gap: 30px;
+  position: relative;
+  right: -100px;
+}
+.imageClass {
+  border: red;
+  border-style: solid;
+  border-width: 10px;
+}
+
 #imagePear {
-  position: relative;
-  height: 400px;
   width: 400px;
-  left: 80px;
-}
-
-#imageSpike {
-  position: relative;
   height: 400px;
-  width: 400px;
-  right: -122px;
 }
-
+#imageSpiky {
+  width: 400px;
+  height: 400px;
+}
 #imageTurnip {
-  position: relative;
-  height: 400px;
   width: 400px;
-  left: 80px;
-  top: 25px;
-}
-
-#imagePumpkin {
-  position: relative;
   height: 400px;
-  width: 400px;
-  right: -122px;
-  top: 25px;
 }
 #imagePumpkin2 {
-  position: relative;
+  width: 400px;
   height: 400px;
-  width: 700px;
-  bottom: 30px;
-  left: 400px;
+}
+#imagePumpkin3 {
+  width: 400px;
+  height: 400px;
+}
+#imageApple {
+  width: 400px;
+  height: 400px;
 }
 
 #fartLink {
