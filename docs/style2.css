@@ -1,0 +1,38 @@
+.col-md-5 {
+  margin: 25px;
+}
+.col-md-6 {
+  margin: 25px;
+}
+.col-md-8 {
+    padding-top: 40px;
+}
+
+#helloMyNameIs {
+  border: grey;
+  border-style: dotted;
+}
+#aBriefDescription {
+  border: goldenrod;
+  border-style: double;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#row3 {
+  border: hotpink;
+  border-style: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footerRow {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container {
+  background-color: rgb(237, 237, 237);
+  padding: 40px;
+}
+.bioPic {
+  width: 400px;
+}
